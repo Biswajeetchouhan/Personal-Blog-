@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 50%;
+    width: 50vw;
+    border: 2px solid rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+}
+.left-side{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: rgba(14, 0, 0, 0.849);
+    border-radius: 7px 0px 0px 7px;
+    
+}
+.right-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(74, 74, 68);
+    color: white;
+    border-radius: 0px 7px 7px 0px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.username,.pwd{
+    height: 25px;
+    margin-bottom:10px ;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding:0px 10px 0px 10px;
+
+}
+
+.form > button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    align-self: flex-end;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.form > button:hover{
+    translate:10px ;
+    transition: all ease-out;
+    transition-duration: 500ms;
+}
+.text{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.link >a:hover{
+    color: blueviolet;
+}

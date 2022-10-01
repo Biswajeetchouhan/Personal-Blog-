@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+}
+.container-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  height: 100vh;
+  width: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(36, 33, 33);
+  color: azure;
+  background-color: rgb(49, 47, 47);
+  border-radius: 4px;
+  box-shadow: 3px 3px 20px rgb(123, 112, 112);
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+  width: 80%;
+}
+
+.name-input {
+  width: 100%;
+}
+.name-box {
+  margin-left: 22px;
+  width: 70%;
+  padding-left: 5px;
+}
+.email-input {
+  width: 100%;
+}
+.email-box {
+  margin-left: 28px;
+  width: 70%;
+  padding-left: 5px;
+}
+.msg-input {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.msg-box {
+  width: 70%;
+  height: 150px;
+  padding-left: 5px;
+}
+#sub-btn {
+  align-self: center;
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  left: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#sub-btn:hover {
+  scale: 1.05;
+  transition: all 250ms ease-in;
+}
